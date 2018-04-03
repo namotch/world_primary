@@ -1,5 +1,7 @@
 # World Primary
 
+お気に入りの世界からスタート
+
 ## なんこれ
 
 mikutter起動時にworldをいちいち切り替えなくても、任意のworldを選択して起動します。
