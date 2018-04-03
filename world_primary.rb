@@ -5,7 +5,7 @@ Plugin.create :world_primary do
   # 起動時に登録したアカウントに変更する
   onboot do |service|
     world = Enumerator.new{|y| Plugin.filtering(:worlds, y) }.find{ |w|
-      w.slug.to_sym == UserConfig[:world_primary_account].to_sym
+      w.slug.to_sym == UserConfig[:world_primary_account].to_s.to_sym
     }
     Plugin.call(:world_change_current, world)
   end
