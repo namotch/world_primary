@@ -1,0 +1,11 @@
+---
+slug: :world_primary
+depends:
+  mikutter: 3.6.5
+  plugin:
+    - world
+    - spell
+version: '1.0'
+author: namotch
+description: >-
+  起動時に指定した world をアクティブにします。
